@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="" />
+    <title>Mi Primera Página Web</title>
+    <style>
+      /*Esta es la primer página que intento hacer, basandome en los documentos que logro encontrar en internet. 
+Ví un video donde hablan de que HTML tiene un orden semántico, claramente no lo respeto acá pero es el primer intento. (Enero 23/23)*/
+
+/*Esta página de prueba decidí dejarla así y subirla a GitHub para tener un registro de como empecé y la verdad que me cuesta un poco CSS, observe un poco el Framework "TailwindCSS" y la verdad es que me resulta mucho más facil de aprender y prolijo a la hora de estilizar, pero aún así decidí seguir dedicandole a CSS.
+
+Me falta bastante por aprender, particularmente JS (JavaScript), pero trato de ir poco a poco para poder entender bien las herramientas y poder desenvolverme bien.
+
+PD: Empecé en el 2021 con Phyton y la verdad que me encantó el lenguaje y se me hizo fácil entenderlo, con el tiempo dejé de practicarlo pero me sirvió para poder leer y entender otros códigos y gracias a eso, hoy puedo o tengo algo de facilidad para entender un poco mejor las cosas.
+(Octubre 9/2024)
+*/
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #9fa392;
+        height: 100vh;
+      }
+
+      header {
+        background-color: #333;
+        color: #9d66a8;
+        padding: 20px;
+        text-align: center;
+        align-content: center;
+      }
+
+      h1 {
+        background-color: bisque;
+        padding: 10px;
+        width: 400px;
+        border-radius: 30px;
+        opacity: 50%;
+        margin: 0% auto 45px;
+        text-decoration: overline underline;
+      }
+
+      h2 {
+        text-decoration: underline;
+        font-size: 50px;
+      }
+
+      h6 {
+        color: white;
+        font-size: 15px;
+      }
+
+      main {
+        height: 85vh;
+        padding: 10px;
+        text-align: center;
+        font-family: Georgia, Times, "Times New Roman", serif;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 20px;
+        position: relative;
+        bottom: 10px;
+      }
+
+      div {
+        font-family: cursive;
+        font-size: 40px;
+      }
+
+      /*aca apliqué una seudoclase para darle un poco de estilo al pasar el ratón por encima (Octubre 9/23)*/
+
+      
+
+      a:hover {
+        background-color: black;
+        padding: 10px;
+        color: #c2298a;
+        border-radius: 40px;
+        transition: 0.5s;
+        opacity: 0.4;
+      }
+
+      /* Hay que separarar el archivo HTML y CSS para tener un mejor orden y buena práctica, con un Framework sería distinto, para ahoorar códigos*/
+
+    </style>
+  </head> 
+
+  <body>
+
+    <header>
+      <h1>Mi Primera Página Web</h1>
+      <h4>En realidad es la segunda...</h4>
+      <h6>esta página es para mostrar una pelicula</h6>
+      
+    </header>
+    
+    <main>
+      <h2>Megalodón 2</h2>
+      <p>
+        Si te gustaria ver la pelicula, podes darle click al enlace de abajo
+      </p>
+      <img
+        src="Meg.2.The.Trench.2023.avi_thumbs.jpg"
+        alt="imagen.jpg"
+        width="500px"
+      />
+      <div>
+        <p>"Esta es una muestra de las escenas horribles de esta pelicula"</p>
+      </div>
+      <p>
+        <a
+          href="https://www.poseidonhd2.co/pelicula/615656/megalodon-2-el-gran-abismo"
+          target="_blank"
+          >CLICK para ver</a
+        >
+      </p>
+    </main>
+
+    <footer>
+      <p>Derechos de autor &copy; 2024 - prueba</p>
+    </footer>
+
+  </body>
+</html>
